@@ -13,6 +13,7 @@ int main() {
     }
     
     printf("\nDeux à la puissance dix font %d\n", z);
+    printf("Bonjour les\n");
     
     return 0;
 }
