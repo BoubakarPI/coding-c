@@ -10,7 +10,9 @@ int main() {
     while (i <= y) {
         z = z * x;
         i++;
-    }
+  /*   }
+    Bonjour les gars */
+
     
     printf("\nDeux à la puissance dix font %d\n", z);
     printf("Bonjour les\n");
