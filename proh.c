@@ -6,7 +6,8 @@ main() {
 
     while(count != 0) {
         printf('\n Entrez un nombre que vous voulez');
+        scanf("%d", &count);
         i++;
-        scanf('Vous avez tapez %d foid')
     }
 }
+
