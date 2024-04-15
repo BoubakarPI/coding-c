@@ -1,11 +1,11 @@
 #include <stdio.h>
 
-main() {
+int main() {
     int i;
-    int count = 0;
+    char count = 'a';
 
     while(count != 0) {
-        printf('\n Entrez un nombre que vous voulez');
+        printf("Entrez un nombre que vous voulez");
         scanf("%d", &count);
         i++;
     }
