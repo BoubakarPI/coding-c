@@ -3,7 +3,7 @@
 int main() {
     int i = 0;
     char count = 'a';
-    printf("Entrez un nhhombre que vous voulez");
+    printf("Entrez un nhhomkkbre que vous voulez");
 
     while(count != 0) {
         printf("Vous êteos au %d essai", i);
