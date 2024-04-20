@@ -2,7 +2,7 @@
 
 int main() {
     int i = 0;
-    char count = 'a';
+    char count = 'ae';
     printf("Entrez un nhhomkkbre que vous voulez");
 
     while(count != 0) {
