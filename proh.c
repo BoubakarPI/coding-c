@@ -6,7 +6,7 @@ int main() {
     printf("Entrez un nhhomkkbre que vous voulez");
 
     while(count != 0) {
-        printf("Vous êtehhos au %d essai", i);
+        printf("Vous êtehos au %d essai", i);
         scanf("%d", &count);
         i++;
     }
