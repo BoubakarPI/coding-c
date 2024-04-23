@@ -10,7 +10,6 @@ int main () {
         TTC = HT *1.2;
       else 
         TTC = HT*1.02;
-/* Hello la mifa vous êtes prjjêtsdd ?*/
       printf("Le TTC est de %f", TTC);
 
 }
