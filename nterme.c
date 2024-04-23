@@ -13,10 +13,12 @@ float terme(int n) {
 
 int main() {
 int n;
+float s;
 
 printf("Entrez n");
 scanf("%d", &n); 
 
-terme(n);
+s = terme(n);
+printf("%f", s);
 
 }
