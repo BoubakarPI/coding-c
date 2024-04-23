@@ -7,14 +7,14 @@ float terme(int n) {
     if (n==1)
         return 3;
     else
-        return (2/3)*terme(n-1)-(1/4)*terme(n);
+        return (2.0/3)*terme(n-1)-(1.0/4)*terme(n-2);
 }
 
 int main() {
 int n;
 float s;
 
-printf("Entrez n");
+printf("Entrez n: ");
 scanf("%d", &n); 
 
 s = terme(n);
