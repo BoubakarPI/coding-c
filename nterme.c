@@ -8,7 +8,6 @@ float terme(int n) {
         return 3;
     else
         return (2/3)*terme(n-1)-(1/4)*terme(n);
-
 }
 
 int main() {
