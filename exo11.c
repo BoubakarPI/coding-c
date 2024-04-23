@@ -5,5 +5,9 @@ int main() {
 
     printf("Entrez a : ");
     scanf("%f", &a);
+    printf("Entrez b : ");
+    scanf("%f", &b);
+    printf("Entrez c : ");
+    scanf("%f", &c);
 
 }
