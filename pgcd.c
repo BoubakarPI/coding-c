@@ -13,7 +13,7 @@ int pgcd (int a, int b) {
 }
 int main() {
     int a, b;
-    float s;
+    int s;
     printf("Entrer le 1er élément : ");
     scanf("%d", &a);
 
