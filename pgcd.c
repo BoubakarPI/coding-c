@@ -15,8 +15,6 @@ int main() {
 
     while (m != n) {
         if (m>n) {m = m - n;}
-        else if (m = n) {m = n;}
-        
         else {n = n - m;}
     }
 
