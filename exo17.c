@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void insert(int t[], int n, float x) {
-    int i = 1;
+    int i = 0;
 
     while (x < t[n-i+1]) {
         t[n-i+2] = t[n-i+1];
