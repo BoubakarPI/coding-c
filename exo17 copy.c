@@ -30,7 +30,7 @@ int main() {
     printf("Entrer l'élement à inserer: ");
     scanf("%d", &x);
 
-    printf("Le tableau apres l'insertion");
+    printf("Le tableau après l'insertion");
     insert(t, n, x);
 
     for(int i = 0; i < n; i++) {
