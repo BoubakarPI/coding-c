@@ -14,10 +14,10 @@ void insert(int t[], int n, int x) {
     t[pos] = x;
 }
 int main() {
-    int n, x, i, t[15];
+    int n, x, i, t[12];
     printf("Enter the number of elements: ");
     scanf("%d", &n);
-    printf("Enter the elements: ");
+    printf("Entrer les elements: ");
     for (i = 0; i < n; i++) {
         scanf("%d\t", &t[i]);
     }
