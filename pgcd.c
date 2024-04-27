@@ -1,26 +1,22 @@
 #include <stdio.h>
 
 
-int pgcd (int a, int b) {
-    if (a == b) {
-        return a;
-    } else if (a > b) {
-        return pgcd(a-b, b);
-    }
-    else {
-        return pgcd(a, b-a);
-    }
-}
 int main() {
-    int a, b;
-    int s;
+    unsigned int a, b, m, n;
+
+
     printf("Entrer le 1er élément : ");
-    scanf("%d", &a);
+    scanf("%u", &a);
 
     printf("Entrer le 2e élément : ");
-    scanf("%d", &b);
+    scanf("%u", &b);
+    m = a;
+    n = b;
 
-    s = pgcd(a, b);
+    while (m =!n) {
+        if (m>n) {m = m - n;}
+        else {n = n - m;}
+    }
 
-    printf("Le pgcd de %d et %d est %d", a, b, s);
+    printf("Le pgcd de %u et %u est %u", a, b, m);
 }
