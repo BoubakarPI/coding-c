@@ -19,8 +19,14 @@ int main() {
     scanf("%d", &n);
     printf("Entrer les elements: ");
     for (i = 0; i < n; i++) {
-        scanf("%d\t", &t[i]);
+        scanf("%d", &t[i]);
     }
+
+    printf("Le tableau avant l'insertion");
+    for (i = 0; i < n; i++) {
+        printf("%d\t", t[i]);
+    }
+    
     printf("Entrer l'élement à inserer: ");
     scanf("%d", &x);
     insert(t, n, x);
