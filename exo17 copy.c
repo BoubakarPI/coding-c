@@ -14,9 +14,19 @@ void insert(int t[], int n, int x) {
     t[pos] = x;
 }
 int main() {
-    int t[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    insert(t, 10, 11);
-    for (int i = 0; i < 11; i++) {
+    int n, x, i, t[15];
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+    printf("Enter the elements: ");
+    for (i = 0; i < n; i++) {
+        scanf("%d\t", &t[i]);
+    }
+    printf("Entrer l'élement à inserer: ");
+    scanf("%d", &x);
+    insert(t, n, x);
+
+    for(int i = 0; i < n; i++) {
         printf("%d\t", t[i]);
     }
 }
+
