@@ -3,7 +3,7 @@
 void insert(int t[], int n, int x) {
     int i, pos;
 
-    i = n -1;
+    i = n;
     n = n+1;
 
     while (t[i] > x) {
