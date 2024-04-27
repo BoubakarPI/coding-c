@@ -14,8 +14,12 @@ int main() {
     n = b;
 
     while (m != n) {
-        if (m>n) {m = m - n;}
-        else {n = n - m;}
+        if (m>n) {
+            m = m - n;
+        }
+        else {
+            n = n - m;
+        }
     }
 
     printf("Le pgcd de %u et %u est %u", a, b, m);
