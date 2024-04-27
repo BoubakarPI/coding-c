@@ -1,13 +1,17 @@
 #include <stdio.h>
 
 void insert(int t[], int n, float x) {
-    int i = 0;
+    int i, pos;
 
-    while (x < t[n-1+i]) {
-        t[n-i+2] = t[n-i+1];
-        i++;
+    i = n;
+    n = n+1;
+
+    while (t[i] > x) {
+        t[i+1] = t[i];
+        i--;
     }
-    t[n-i+2] = x;
+    pos = i +1;
+    t[pos] = x;
 }
 int main() {
     int t[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
