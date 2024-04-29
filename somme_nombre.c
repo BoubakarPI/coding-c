@@ -12,6 +12,7 @@ int main () {
     {
         s = s +n%10;
         n /= 10;
+        printf("S : %d, N: %d\n", s, n);
     }
 
     printf("La somme est %d est ; ", s);
