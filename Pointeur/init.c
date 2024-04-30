@@ -5,7 +5,7 @@ int main() {
     int *p;
 
     printf("Entrez le premier nbre 1 et le nbre 2 : ");
-    scanf("%d%d", x, y);
+    scanf("%d %d", x, y);
 
     s = x + y;
 
