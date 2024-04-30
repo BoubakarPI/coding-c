@@ -1,12 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int age = 2;
-    int *sexe;
+    int x, y, s;
+    int *p;
 
-    sexe = &age;
+    printf("Entrez le premier nbre 1 et le nbre 2 : ");
+    scanf("%d%d", x, y);
 
-    printf("La valeur est %d et le pointeur point vers %p\n", age, sexe);
-    return 0;
+    s = x + y;
 
-}
+    p = &s;
+
+    printf("La somme de %d et %d  donne : %d", x, y, p);
+}    
