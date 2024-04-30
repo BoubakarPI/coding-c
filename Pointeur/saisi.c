@@ -17,7 +17,7 @@ int main(void) {
     }
 
     for (i=0; i<5; i++) {
-        print("%P[i] = ", P[i]);
+        print("%d" = ", P[i]);
     }
     return 0;
 }
