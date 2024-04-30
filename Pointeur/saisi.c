@@ -15,5 +15,9 @@ int main(void) {
             *(*(P+i) + j) = 1;
         }
     }
+
+    for (i=0; i<5; i++) {
+        print("%P[i] = ", P[i]);
+    }
     return 0;
 }
