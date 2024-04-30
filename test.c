@@ -1,22 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int i, z, x, y;
-    x = 2; 
-    y = 10;
-    z = 1;
-    i = 1;
+    int i, z;
     
-    while (i <= y) {
-        z = z * x;
-        i++;
-    }
-  /*   
-    Bonjour les gars */
+    printf("Entrer i et z");
+    scanf("%d %d", &i, &z);
 
+    i = z +i;
 
-    printf("\nDeux à la puissance dix font %d\n", z);
-    printf("Bonjour les\n");
+    printf("z + i : %d\n", i);
     
-    return 0;
 }
