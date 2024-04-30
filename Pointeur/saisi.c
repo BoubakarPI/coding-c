@@ -17,7 +17,7 @@ int main(void) {
     }
 
     for (i=0; i<5; i++) {
-        print("%t", P[i]);
+        print("%d\t", P[i]);
     }
     return 0;
 }
