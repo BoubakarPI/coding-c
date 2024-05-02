@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-float calcule(int *x, int *y) {
-    float moyen;
-    int somme;
+int calcule(int *x, int *y) {
+    
 
-    return somme = *x + *y, moyen = (*x + *y) / 2;
+    return *x + *y;
 }
 int main(void) {
     int a, b, resultat;
@@ -17,7 +16,7 @@ int main(void) {
 
     resultat = calcule(&a, &b);
 
-    printf("La somme est %d et la moyenne est %d\n", resultat, resultat);
+    printf("La somme est %d\n", resultat);
 
 
 
