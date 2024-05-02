@@ -1,8 +1,24 @@
 #include <stdio.h>
 
-int main(void) {
-    int a = 10;
+float calcule(int *x, int *y) {
+    float moyen;
+    int somme;
 
-    printf("Mon entier a = %d et (l'adresse : %d\n)", a, &a);
+    return somme = *x + *y, moyen = (*x + *y) / 2;
+}
+int main(void) {
+    int a, b, resultat;
+
+    a = 10;
+    b = 12;
+
+    // printf("Entrer a et b : \n");
+    // scanf("%d %d", a, b);
+
+    resultat = calcule(&a, &b);
+
+    printf("La somme est %d et la moyenne est %d\n", resultat, resultat);
+
+
 
 } 
