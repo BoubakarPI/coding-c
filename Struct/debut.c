@@ -1,5 +1,13 @@
 #include <stdio.h>
 
+struct point
+{
+    int x,y;
+};
+
+
+
+
 struct Point {
     int x, y;
 };
@@ -11,6 +19,7 @@ struct etudiant
 };
 
 int main(void) {
+
 
 /*struct Point tab[10];
 

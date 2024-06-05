@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "LimoZine",
+			"path": "../LimoZine"
+		}
+	],
+	"settings": {}
+}
