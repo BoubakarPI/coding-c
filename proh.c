@@ -6,7 +6,7 @@ int main() {
     printf("Entrez un lapous vo,,ulez");
 
     while(count != 0) {
-        printf("Vous êtehkkos au %d essai", i);
+        printf("Vous au n ième essai", i);
         scanf("%d", &count);
         i++;
     }

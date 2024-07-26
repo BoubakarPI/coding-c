@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-
-int main() {
+int main()
+{
     float a, b, c, d, x1, x2;
 
     printf("Entrez a : ");
@@ -12,9 +12,7 @@ int main() {
     printf("Entrez c : ");
     scanf("%f", &c);
 
-    d = (b*b) - (4*a*c);
-    if(d>0)
-        x1 = -b-sqrt(d);
-
-
+    d = (b * b) - (4 * a * c);
+    if (d > 0)
+        x1 = -b - sqrt(d);
 }
